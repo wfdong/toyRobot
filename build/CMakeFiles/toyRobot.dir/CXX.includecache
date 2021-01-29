@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/include/Robot.h
+string
+-
+
+/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/include/RobotAction.h
+../include/Robot.h
+/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/include/Robot.h
+
+/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/include/RobotUtils.h
+string
+-
+
+/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/src/RobotAction.cc
+../include/RobotAction.h
+/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/include/RobotAction.h
+../include/RobotUtils.h
+/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/include/RobotUtils.h
+regex
+-
+
