@@ -13,6 +13,8 @@ cmake (version>=3.9.13)
 
 cmake ..
 
+(note: the command above is "cmake ..", cmake dot dot, don't forget input the dot dot "..")
+
 2. Run the command below:
 
 make
