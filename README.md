@@ -30,11 +30,18 @@ toyRobot
 then there will be a prompt echo says "please input your commands(in upper case, and each command in its own line, divide parameters by ',' and  type in '-1' to end up the input):"
 
 then input your commands in uppercase letter(one line one command), eg:
+
 PLACE 0,0,NORTH
+
 MOVE
+
 RIGHT
+
 MOVE
+
 REPORT
+
 -1
+
 
 To end up the input just input "-1".
