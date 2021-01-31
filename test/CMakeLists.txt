@@ -1,7 +1,7 @@
 add_library(tests-main STATIC main.cc)
 
 # This contains the actual tests.
-add_executable(tests-run RobotPlaceActionTest.cc)
+add_executable(tests-run RobotTests.cc)
 
 target_link_libraries(tests-run tests-main)
 

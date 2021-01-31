@@ -1,8 +1,0 @@
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/CMakeFiles/rebuild_cache.dir
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/CMakeFiles/edit_cache.dir
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/CMakeFiles/toyRobot.dir
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/test/CMakeFiles/rebuild_cache.dir
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/test/CMakeFiles/edit_cache.dir
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/test/CMakeFiles/test.dir
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/test/CMakeFiles/tests-run.dir
-/Users/fudongwang/Documents/Interview-Australia/20210127/Iress/toyRobot/build/test/CMakeFiles/tests-main.dir
