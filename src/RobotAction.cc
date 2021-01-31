@@ -123,8 +123,12 @@ bool RobotMoveAction::action(Robot &robot){
         implementation of action:
         action on MOVE command...
     */
+   RobotUtils robotUtils;
    int currentX = robot.getX();
    int currentY = robot.getY();
+   if(!robotUtils.isRightRange(currentX, currentY)){
+       return false;
+   }
    if(robot.getOrientation()=="NORTH"){
        currentY++;
    }else if(robot.getOrientation()=="WEST"){
@@ -134,7 +138,6 @@ bool RobotMoveAction::action(Robot &robot){
    }else if(robot.getOrientation()=="EAST"){
        currentX++;
    }
-   RobotUtils robotUtils;
    if(robotUtils.isRightRange(currentX, currentY)){
        robot.setX(currentX);
        robot.setY(currentY);

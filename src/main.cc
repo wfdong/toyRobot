@@ -36,16 +36,12 @@ void robotAction(Robot &robot, string command)
     RobotUtils robotUtils;
     string trimedCMD = trim(command);
     if(trimedCMD.rfind("PLACE")==0){
-        cout<<"trimedCMD:"<<trimedCMD<<endl;
         string unTrimedX= trimedCMD.substr(trimedCMD.find(" "), trimedCMD.find(",")-trimedCMD.find(" "));
         string parsedStrX = trim(unTrimedX);
-        cout<<"parsedStrX:"<<parsedStrX<<endl;
         string unTrimedY = trimedCMD.substr(trimedCMD.find(",")+1, trimedCMD.rfind(",")-trimedCMD.find(",")-1);
         string parsedStrY = trim(unTrimedY);
-        cout<<"parsedStrY:"<<parsedStrY<<endl;
         string unTrimedOrien = trimedCMD.substr(trimedCMD.rfind(",")+1);
         string parsedStrOrien = trim(unTrimedOrien);
-         cout<<"parsedStrOrien:"<<parsedStrOrien<<endl;
         if(robotUtils.isInteger(parsedStrX)&&robotUtils.isInteger(parsedStrY)&&robotUtils.isRightDirection(parsedStrOrien)){
             int parsedX = std::stoi(parsedStrX);
             int parsedY = std::stoi(parsedStrY);

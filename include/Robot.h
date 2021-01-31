@@ -5,9 +5,9 @@
 class Robot
 {
 private:
-    int x;
-    int y;
-    std::string orientation;
+    int x=-1;
+    int y=-1;
+    std::string orientation="";
 public:
     void setX(int inputX);
     int getX();

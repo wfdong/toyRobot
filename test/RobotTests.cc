@@ -95,7 +95,7 @@ TEST_CASE("Valid Robot LEFT Command are tested 3", "[Robot left]"){
 /*
     test for right action
 */
-TEST_CASE("Valid Robot RIGHT Command are tested 1", "[Robot left]"){
+TEST_CASE("Valid Robot RIGHT Command are tested 1", "[Robot RIGHT]"){
     RobotPlaceAction robotPlaceAction(0, 0, "NORTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 0);
     REQUIRE(robotPlaceAction.getPlaceY() == 0);
@@ -111,7 +111,7 @@ TEST_CASE("Valid Robot RIGHT Command are tested 1", "[Robot left]"){
     REQUIRE(robot.getOrientation() == "EAST");
 }
 
-TEST_CASE("Valid Robot RIGHT Command are tested 2", "[Robot left]"){
+TEST_CASE("Valid Robot RIGHT Command are tested 2", "[Robot RIGHT]"){
     RobotPlaceAction robotPlaceAction(0, 0, "SOUTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 0);
     REQUIRE(robotPlaceAction.getPlaceY() == 0);
@@ -127,7 +127,7 @@ TEST_CASE("Valid Robot RIGHT Command are tested 2", "[Robot left]"){
     REQUIRE(robot.getOrientation() == "WEST");
 }
 
-TEST_CASE("Valid Robot RIGHT Command are tested 3", "[Robot left]"){
+TEST_CASE("Valid Robot RIGHT Command are tested 3", "[Robot RIGHT]"){
     RobotPlaceAction robotPlaceAction(10, 200, "EASTSOUTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 10);
     REQUIRE(robotPlaceAction.getPlaceY() == 200);
@@ -146,7 +146,7 @@ TEST_CASE("Valid Robot RIGHT Command are tested 3", "[Robot left]"){
 /*
     test for move action
 */
-TEST_CASE("Valid Robot MOVE Command are tested 1", "[Robot left]"){
+TEST_CASE("Valid Robot MOVE Command are tested 1", "[Robot move]"){
     RobotPlaceAction robotPlaceAction(0, 0, "NORTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 0);
     REQUIRE(robotPlaceAction.getPlaceY() == 0);
@@ -164,7 +164,7 @@ TEST_CASE("Valid Robot MOVE Command are tested 1", "[Robot left]"){
     REQUIRE(robot.getOrientation() == "NORTH");
 }
 
-TEST_CASE("Valid Robot MOVE Command are tested 2", "[Robot left]"){
+TEST_CASE("Valid Robot MOVE Command are tested 2", "[Robot move]"){
     RobotPlaceAction robotPlaceAction(0, 0, "SOUTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 0);
     REQUIRE(robotPlaceAction.getPlaceY() == 0);
@@ -182,7 +182,7 @@ TEST_CASE("Valid Robot MOVE Command are tested 2", "[Robot left]"){
     REQUIRE(robot.getOrientation() == "SOUTH");
 }
 
-TEST_CASE("Valid Robot MOVE Command are tested 3", "[Robot left]"){
+TEST_CASE("Valid Robot MOVE Command are tested 3", "[Robot move]"){
     RobotPlaceAction robotPlaceAction(10, 200, "EASTSOUTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 10);
     REQUIRE(robotPlaceAction.getPlaceY() == 200);
@@ -200,7 +200,7 @@ TEST_CASE("Valid Robot MOVE Command are tested 3", "[Robot left]"){
 /*
     test for report action
 */
-TEST_CASE("Valid Robot REPORT Command are tested 1", "[Robot left]"){
+TEST_CASE("Valid Robot REPORT Command are tested 1", "[Robot report]"){
     RobotPlaceAction robotPlaceAction(0, 0, "NORTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 0);
     REQUIRE(robotPlaceAction.getPlaceY() == 0);
@@ -218,7 +218,7 @@ TEST_CASE("Valid Robot REPORT Command are tested 1", "[Robot left]"){
     REQUIRE(robot.getOrientation() == "NORTH");
 }
 
-TEST_CASE("Valid Robot REPORT Command are tested 2", "[Robot left]"){
+TEST_CASE("Valid Robot REPORT Command are tested 2", "[Robot report]"){
     RobotPlaceAction robotPlaceAction(0, 0, "SOUTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 0);
     REQUIRE(robotPlaceAction.getPlaceY() == 0);
@@ -236,7 +236,7 @@ TEST_CASE("Valid Robot REPORT Command are tested 2", "[Robot left]"){
     REQUIRE(robot.getOrientation() == "SOUTH");
 }
 
-TEST_CASE("Valid Robot REPORT Command are tested 3", "[Robot left]"){
+TEST_CASE("Valid Robot REPORT Command are tested 3", "[Robot report]"){
     RobotPlaceAction robotPlaceAction(10, 200, "EASTSOUTH");
     REQUIRE(robotPlaceAction.getPlaceX() == 10);
     REQUIRE(robotPlaceAction.getPlaceY() == 200);
